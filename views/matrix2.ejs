@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <%- 
+    include('./component/meta', {
+      appTitle: appTitle, 
+      appDescription: appDescription, 
+      ogTitle: ogTitle, 
+      ogDescription: ogDescription, 
+      ogUrl: ogUrl, 
+      ogImage: ogImage
+    }); 
+    -%>
+  </head>
+  <body class="d-flex text-white bg-dark" style="min-height: 100%;">
+    
+    <div class="container d-flex w-100 p-3 mx-auto flex-column" style="min-height: 100%; max-width: 72em;">
+      <%- include('./component/header2'); -%>
+      <main class="px-3" style="min-height: 100%;">
+        <span class="user"><img src="https://live---metadata-5covpqijaa-uc.a.run.app/images/1" alt="">
+        </span>
+        <span class="user" href="/"><img src="https://live---metadata-5covpqijaa-uc.a.run.app/images/1" alt=""></span>
+        <span class="user" href="/"><img src="https://live---metadata-5covpqijaa-uc.a.run.app/images/1" alt=""></span>
+        <span class="user" href="/"><img src="https://live---metadata-5covpqijaa-uc.a.run.app/images/1" alt=""></span>
+        <span class="user" href="/"><img src="https://live---metadata-5covpqijaa-uc.a.run.app/images/1" alt=""></span>
+        <span class="user" href="/"><img src="https://live---metadata-5covpqijaa-uc.a.run.app/images/1" alt=""></span>
+        <span class="user" href="/"><img src="https://live---metadata-5covpqijaa-uc.a.run.app/images/1" alt=""></span>
+        <span class="user" href="/"><img src="https://live---metadata-5covpqijaa-uc.a.run.app/images/1" alt=""></span>
+      </main>
+      <%- include('./component/footer'); -%>
+    </div>
+  </body>
+</html>
