@@ -9,7 +9,7 @@ const config = {
     ignore_traits: ['date'], 
     sqlite_file_name: 'database.sqlite',
     ga: 'G-BW69Z04YTP',
-    main_og_image: 'https://onedaypunk-rarity-tool.herokuapp.com/images/og.png',
+    main_og_image: 'https://bafybeic7tfdba2rsauveg5l6sg6fa3sd5olpucff6efiu4w7dr53q7xw5y.ipfs.nftstorage.link/banner.jpg',
     item_path_name: 'Friends',
     page_item_num: 60,
     content_image_is_video: false,
