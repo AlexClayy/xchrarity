@@ -44,10 +44,10 @@ router.get('/', function(req, res, next) {
     useTraitNormalization = '0';
   }
 
-  if (orderBy == 'rarity' || orderBy == 'id') {
+  if (orderBy == 'id' || orderBy == 'rarity') {
     orderBy = orderBy;
   } else {
-    orderBy = 'rarity';
+    orderBy = 'id';
   }
 
   if (!_.isEmpty(page)) {
