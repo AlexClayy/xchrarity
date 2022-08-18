@@ -9,6 +9,7 @@ const config = {
     ignore_traits: ['date'], 
     sqlite_file_name: 'database.sqlite',
     ga: 'G-BW69Z04YTP',
+    collection_id: 'col1z0ef7w5n4vq9qkue67y8jnwumd9799sm50t8fyle73c70ly4z0ws0p2rhl',
     main_og_image: 'https://bafybeic7tfdba2rsauveg5l6sg6fa3sd5olpucff6efiu4w7dr53q7xw5y.ipfs.nftstorage.link/banner.jpg',
     item_path_name: 'Friends',
     page_item_num: 60,
