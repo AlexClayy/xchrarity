@@ -85,7 +85,8 @@ router.get('/:id', function(req, res, next) {
     allTraitCountTypesData: allTraitCountTypesData, 
     punkTraitData: punkTraitData, 
     ignoredPunkTraitData: ignoredPunkTraitData,
-    totalPunkCount: totalPunkCount, 
+    totalPunkCount: totalPunkCount,
+    collection_id: config.collection_id,
     trait_normalization: useTraitNormalization,
     _: _,
     md: md
