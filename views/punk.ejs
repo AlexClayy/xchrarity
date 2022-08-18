@@ -8,7 +8,8 @@
       ogTitle: ogTitle, 
       ogDescription: ogDescription, 
       ogUrl: ogUrl, 
-      ogImage: ogImage
+      ogImage: ogImage,
+      collection_id: collection_id
     }); 
     -%>
   </head>
@@ -40,7 +41,7 @@
                 </div>
                 -->
                 <% if (!_.isEmpty(collection_contract_address)) { %>
-                <a class="view-on-link" href="#" onClick="alert('This Feature will be available Very Soon!')">
+                <a class="view-on-link" href="https://www.spacescan.io/xch/nft/collection/<%= collection_id %>" target="_blank">
                   <div class="view-on-block text-center">
                     <!-- <img class="" src="./images/spacescan.svg"> -->
                     View on Spacescan
@@ -48,7 +49,7 @@
                 </a>
                 <% } %>
                 <% if (!_.isEmpty(punk.name)) { %>
-                <a class="view-on-link" href="#" onClick="alert('This Feature will be available Very Soon!')">
+                <a class="view-on-link" href="https://dexie.space/offers/<%= collection_id %>/xch" target="_blank">
                   <div class="view-on-block text-center">
                     <!-- <img class="view-on-icon" src="/images/profile@32w.png"> -->
                     View on Dexie Space
